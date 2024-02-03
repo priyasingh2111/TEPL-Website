@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.main{
+    margin: 0;
+    /* padding: 1% 1% ; */
+    width: 100%;
+    background-color: orange;
+    max-height: 5%;
+    position: absolute;
+    
+}
+
+.top-of-nav{
+    border: 1px black;
+    box-shadow: 100% 100% 100% 100% black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+li{
+    display : inline;
+    float: left;
+    margin-left: 2%;
+    line-height: 5%;
+    vertical-align: center;
+    font-size: 100%;
+}
+
+#logo-main {
+    float: left;
+    /* width: 100%; */
+    height: 2em;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+#logo-facebook{
+    float: inline;
+    max-width: 10%;
+    max-height: 10%;
+}
+
+#logo-gmap{
+    max-height: 1.5em;
+    max-width: 2em;
+    /* opacity: 70%; */
+    float: inline;
+    margin-top: 20%;
+    background-color: transparent;
+}
+
+.header-text-contact{
+  margin-top: 18px;
+}
+
+nav select {
+    display: none;
+}
+
+@media (max-width: 960px) {
+    nav ul     { display: none; }
+    nav select { display: inline-block; }
+}
