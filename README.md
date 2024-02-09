@@ -11,7 +11,7 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the Repository:**
 2. **Open command prompt and navigate to this project directory.**
 
-###Run the Application:
+## Run the Application:
 ```bash
 npm server.js
 ```
